@@ -24,10 +24,10 @@ class String
 };
 int main()
 {
-	String s1,s2,s3;
-	s1.read();
-	s2.read();
-	s3=s1+s2;
-	s3.print();
+	String s11,s22,s33;
+	s11.read();
+	s22.read();
+	s33=s11+s22;
+	s33.print();
 	return 0;
 }
