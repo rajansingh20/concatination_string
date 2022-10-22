@@ -1,5 +1,5 @@
-// C++ Program to concatenate two string
-// using unary operator overloading
+// C++ Program to concatenate two strings
+// updated
 #include <iostream>
 #include <string.h>
 
