@@ -25,11 +25,12 @@ class String
 };
 int main()
 {
-	String s11,s22,s33,s44;
+	String s11,s22,s33,s44,s55;
 	s11.read();
 	s22.read();
 	s33.read();
-	s44=s11+s22+s33;
-	s44.print();
+	s44.read();
+	s55=s11+s22+s33+s44;
+	s55.print();
 	return 0;
 }
