@@ -1,6 +1,7 @@
 #include<iostream>
-#include<string.h>
+#include<cstring>
 using namespace std;
+
 class String
 {
 	char str[200];
@@ -10,17 +11,17 @@ class String
 			cout<<"Enter a string: ";
 			cin>>str;
 		}
-	void print()
-	{
-		cout<<"String is : "<<str<<endl;
-	}
-	String operator + (String x)
-	{
-		String t;
-		strcpy(t.str,str);
-		strcat(t.str,x.str);
-		return t;
-	}
+		void print()
+		{
+			cout<<"String is : "<<str<<endl;
+		}
+		String operator + (String x)
+		{
+			String t;
+			strcpy(t.str,str);
+			strcat(t.str,x.str);
+			return t;
+		}
 };
 int main()
 {
