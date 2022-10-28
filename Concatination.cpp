@@ -7,14 +7,14 @@ class String
 {
 	char str[200];
 	public:
-		void read()
+		void readstring()
 		{
 			cout<<"Enter a string: ";
 			cin>>str;
 		}
 		void print()
 		{
-			cout<<"String is : "<<str<<endl;
+			cout<<"Entered String is : "<<str<<endl;
 		}
 		String operator + (String x)
 		{
@@ -27,10 +27,10 @@ class String
 int main()
 {
 	String s11,s22,s33,s44,s55;
-	s11.read();
-	s22.read();
-	s33.read();
-	s44.read();
+	s11.readstring();
+	s22.readstring();
+	s33.readstring();
+	s44.readstring();
 	s55=s11+s22+s33+s44;
 	s55.print();
 	return 0;
