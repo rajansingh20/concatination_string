@@ -2,7 +2,7 @@
 // updated
 #include <iostream>
 #include <string.h>
-
+#include<math.h>
 using namespace std;
 
 // Class to implement operator overloading
@@ -32,8 +32,8 @@ public:
 int main()
 {
 	// Declaring two strings
-	char str1[] = "Geeks";
-	char str2[] = "ForGeeks";
+	char str1[] = "Hello";
+	char str2[] = "World";
 
 	// Declaring and initializing the class
 	// with above two strings
